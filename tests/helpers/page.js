@@ -59,6 +59,7 @@ class Page {
   async get(path) {
     return this.request(path, 'GET');
   }
+  
   async post(path, body) {
     return this.request(path, 'POST', body);
   }
